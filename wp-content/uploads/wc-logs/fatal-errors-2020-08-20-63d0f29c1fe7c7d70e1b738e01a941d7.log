@@ -1,0 +1,33 @@
+2020-08-20T09:16:55+00:00 CRITICAL Uncaught Error: Class 'Custom_WC_Widget_Cart' not found in /Users/amoryac/Documents/Work/propertyspot/wp-includes/class-wp-widget-factory.php:61
+Stack trace:
+#0 /Users/amoryac/Documents/Work/propertyspot/wp-includes/widgets.php(115): WP_Widget_Factory->register('Custom_WC_Widge...')
+#1 /Users/amoryac/Documents/Work/propertyspot/wp-content/plugins/roadthemes-helper/roadthemes-helper.php(491): register_widget('Custom_WC_Widge...')
+#2 /Users/amoryac/Documents/Work/propertyspot/wp-includes/class-wp-hook.php(287): ginza_override_woocommerce_widgets('')
+#3 /Users/amoryac/Documents/Work/propertyspot/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 /Users/amoryac/Documents/Work/propertyspot/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /Users/amoryac/Documents/Work/propertyspot/wp-includes/widgets.php(1773): do_action('widgets_init')
+#6 /Users/amoryac/Documents/Work/propertyspot/wp-includes/class-wp-hook.php(287): wp_widgets_init('')
+#7 /Users/amoryac/Documents/Work/propertyspot/ in /Users/amoryac/Documents/Work/propertyspot/wp-includes/class-wp-widget-factory.php on line 61
+
+2020-08-20T09:17:19+00:00 CRITICAL Uncaught Error: Class 'Custom_WC_Widget_Cart' not found in /Users/amoryac/Documents/Work/propertyspot/wp-includes/class-wp-widget-factory.php:61
+Stack trace:
+#0 /Users/amoryac/Documents/Work/propertyspot/wp-includes/widgets.php(115): WP_Widget_Factory->register('Custom_WC_Widge...')
+#1 /Users/amoryac/Documents/Work/propertyspot/wp-content/plugins/roadthemes-helper/roadthemes-helper.php(491): register_widget('Custom_WC_Widge...')
+#2 /Users/amoryac/Documents/Work/propertyspot/wp-includes/class-wp-hook.php(287): ginza_override_woocommerce_widgets('')
+#3 /Users/amoryac/Documents/Work/propertyspot/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 /Users/amoryac/Documents/Work/propertyspot/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /Users/amoryac/Documents/Work/propertyspot/wp-includes/widgets.php(1773): do_action('widgets_init')
+#6 /Users/amoryac/Documents/Work/propertyspot/wp-includes/class-wp-hook.php(287): wp_widgets_init('')
+#7 /Users/amoryac/Documents/Work/propertyspot/ in /Users/amoryac/Documents/Work/propertyspot/wp-includes/class-wp-widget-factory.php on line 61
+
+2020-08-20T09:17:26+00:00 CRITICAL Uncaught Error: Class 'Custom_WC_Widget_Cart' not found in /Users/amoryac/Documents/Work/propertyspot/wp-includes/class-wp-widget-factory.php:61
+Stack trace:
+#0 /Users/amoryac/Documents/Work/propertyspot/wp-includes/widgets.php(115): WP_Widget_Factory->register('Custom_WC_Widge...')
+#1 /Users/amoryac/Documents/Work/propertyspot/wp-content/plugins/roadthemes-helper/roadthemes-helper.php(491): register_widget('Custom_WC_Widge...')
+#2 /Users/amoryac/Documents/Work/propertyspot/wp-includes/class-wp-hook.php(287): ginza_override_woocommerce_widgets('')
+#3 /Users/amoryac/Documents/Work/propertyspot/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 /Users/amoryac/Documents/Work/propertyspot/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /Users/amoryac/Documents/Work/propertyspot/wp-includes/widgets.php(1773): do_action('widgets_init')
+#6 /Users/amoryac/Documents/Work/propertyspot/wp-includes/class-wp-hook.php(287): wp_widgets_init('')
+#7 /Users/amoryac/Documents/Work/propertyspot/ in /Users/amoryac/Documents/Work/propertyspot/wp-includes/class-wp-widget-factory.php on line 61
+

@@ -1,0 +1,9 @@
+.upper-admin-table-inline{ display: table; }
+.upper-admin-table-inline.upper-ready{ opacity: 1; }
+.upper-admin-table-inline tr,
+.upper-admin-table-inline td{ display: table-cell; }
+
+.upper-admin-table-inline td span{ font-size: 12px; }
+
+.upper-admin-helper-wrap,
+.upper-admin-helper-wrap *{ display: none; }
